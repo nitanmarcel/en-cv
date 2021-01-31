@@ -33,7 +33,7 @@ instagram_username: nitan.alexandru
 additional_links:
 - title: Download pdf
   icon: fas fa-file-pdf
-  url: https://raw.githubusercontent.com/nitanmarcel/ro-cv/main/assets/cv.pdf
+  url: https://raw.githubusercontent.com/nitanmarcel/en-cv/main/assets/cv.pdf
 - title: View in Romanian
   icon: fas fa-globe
   url: https://nitanmarcel.github.io/ro-cv/
