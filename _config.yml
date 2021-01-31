@@ -1,0 +1,98 @@
+# Site
+repository: nitanmarcel/ro-cv
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Marcel Alexandru Nitan
+#title: "-"
+email: nitan.marcel@gmail.com
+website: https://github.com/nitanmarcel/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: "-"
+github_username:  nitanmarcel
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+facebook_username: "marcel.alexandru.3939"
+# flickr_username: jekyll
+instagram_username: nitan.alexandru
+#linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Download pdf
+  icon: fas fa-file-pdf
+  url: https://raw.githubusercontent.com/nitanmarcel/ro-cv/main/assets/cv.pdf
+- title: View in Romanian
+  icon: fas fa-globe
+  url: https://nitanmarcel.github.io/ro-cv/
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: About
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hello! My name is Marcel Alexandru Nitan, I am 22 years old and I am from Suceava, Romania. I studied automotive electronics at Alexandru Ioan Cuza High School, and I finished 12th grade but failed to get the baccalaureate.
+
+  I am calm, attentive, and I am always ready to learn new things. I adapt easily to the requirements of the job and I am a person who believes in the expansion of knowledge and experience.
+
+  Some of my hobbies are computers and programming. Currently, I know 2 programming languages: Python with 3 years experience and C # with 6 months experience. 
+ 
+
+content:
+  - title: Education
+    layout: list
+    content:
+      - layout: top-middle
+        title: Alexandru Ioan Cuza
+        sub_title: Automotive Electronics
+        caption: 2013 - 2017
+         
+  
+  - title: Experience
+    layout: list
+    content:
+      - layout: top-middle
+        title: AngelTrans
+        sub_title: Cargo Handler
+        caption: May 2019 - Iul 2019
+      - layout: top-middle
+        title: First Step Consulting
+        sub_title: Sales Agent d2d
+        caption: Iul 2019 - Oct 2019
+      - layout: top-middle
+        title: Marco Spoleto
+        sub_title: Help Chef
+        caption: Nov 2019 - Ia 2020
+# Footer
+footer_show_references: true
+references_title: References available on request.
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
